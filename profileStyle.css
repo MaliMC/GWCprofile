@@ -1,0 +1,90 @@
+ /* Heading/Paragraph Font */
+            h1 { color: #ff99cc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
+            p { color: #7a7c7f; font-size: 22px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
+      /* Body */
+            body{
+            color: inherit;
+      }
+       /* Table */
+            table, th, td{
+            border: 2px solid #01426a;
+            border-collapse: collapse;
+            padding: 15px;
+            text-align: center;
+            vertical-align: middle;
+            color: #000000
+            }
+            th  {
+            background-color: #7BEBF3
+            }
+            tr:hover {background-color: #7BEBF3}
+            .scratchlink {
+            background-color: #5ce6f0;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+       /* Email Link */
+            #email {
+            color: #7a7c7f;
+            }
+      /* Slideshow code starts here */
+            * {box-sizing:border-box}
+            body {font-family: Verdana,sans-serif;}
+            .mySlides {display:none}
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+            .text {
+              color: #f2f2f2;
+              font-size: 15px;
+              padding: 8px 12px;
+              position: absolute;
+              bottom: 8px;
+              width: 100%;
+              text-align: center;
+            }
+            .numbertext {
+              color: #f2f2f2;
+              font-size: 12px;
+              padding: 8px 12px;
+              position: absolute;
+              top: 0;
+            }
+            .dot {
+              height: 13px;
+              width: 13px;
+              margin: 0 2px;
+              background-color: #bbb;
+              border-radius: 50%;
+              display: inline-block;
+              transition: background-color 0.6s ease;
+            }
+            .active {
+              background-color: #717171;
+            }
+            .fade {
+              -webkit-animation-name: fade;
+              -webkit-animation-duration: 1.5s;
+              animation-name: fade;
+              animation-duration: 1.5s;
+            }
+            @-webkit-keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            @keyframes fade {
+              from {opacity: .4} 
+              to {opacity: 1}
+            }
+            @media only screen and (max-width: 300px) {
+              .text {font-size: 11px}
+            }
