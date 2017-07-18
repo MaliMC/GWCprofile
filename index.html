@@ -7,47 +7,44 @@
       <!-- Set the style of the table -->
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
    </head>
-   <style>
-      h1 { color: #ff99cc; font-family: "Great Vibes", cursive; font-size: 165px; line-height: 160px; font-weight: normal; margin-bottom: 0px; margin-top: 40px; text-align: center; text-shadow: 0 1px 1px #fff; }
-      p { color: #7a7c7f; font-size: 29px; font-family: "Libre Baskerville", serif; line-height: 45px; text-align: center; text-shadow: 0 1px 1px #fff; padding-top: 20px; }
-      body{
-      color: inherit;
-      }
-      table, th, td{
-      border: 2px solid #01426a;
-      border-collapse: collapse;
-      padding: 15px;
-      text-align: center;
-      vertical-align: middle;
-      color: #000000
-      }
-      th  {
-      background-color: #33FFD0
-      }
-      tr:hover {background-color: #33FFD0}
-      h3 {
-      font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-      font-size: 14px;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: 500;
-      line-height: 15.4px;
-      }
-   </style>
+   <link rel="stylesheet" type="text/css" href="profileStyle.css">
    <body background="betterwood.jpg">
       <center>
          <h1  >Mahlet Copeland</h1>
-         <p>mali.ethiopia10@gmail.com</p>
+         <p><a href="mailto:webmaster@example.com" id="email" >mali.ethiopia10@gmail.com</a></p>
          <img id="pug" src="https://pbs.twimg.com/profile_images/803705938125459456/lbICKs79.jpg" alt="Pug" style="width:304px;height:228px;">
          <p> Hi my name is Mahlet C and I am a Junior. I am in Girls Who Code this summer so I can learn some basics in coding. I enjoy science and technology also I am intrested in art and cooking. My favorite food is ice cream. My favorite animal is a dog.
          </p>
-         <a href="https://scratch.mit.edu/projects/166607348/">Look at my scratch Introduction to myslef.</a>
+         <form>
+         <input class="scratchlink" type="button" value="Scratch intro to Myself" onclick="window.location.href='https://scratch.mit.edu/projects/166607348'" />
+         </form>
          <br></br>
-         <a href="https://scratch.mit.edu/projects/166865392/">Look at my Banana game I created in scratch.</a>
+         <input class="scratchlink" type="button" value="My Scratch Banana Game" onclick="window.location.href='https://scratch.mit.edu/projects/166865392/'" />
+         </form>
          <div></div>
          <img src= "cicuit.PNG">
          <p>That is my circuit I made it in series. It has a button that when pushed turns on the two leds. I learened that I could have also creted the same circuit in parallel.</p>
-         <!DOCTYPE html>
+         <!--Slideshow-->
+         <div class="slideshow-container">
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="img_nature_wide.jpg" style="width:100%">
+         </div>
+         <div class="mySlides fade">
+           <div class="numbertext">2 / 3</div>
+           <img src="img_fjords_wide.jpg" style="width:100%">
+         </div>
+         <div class="mySlides fade">
+           <div class="numbertext">3 / 3</div>
+           <img src="img_mountains_wide.jpg" style="width:100%">
+         </div>
+         </div>
+         <br>
+         <div style="text-align:center">
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+         </div>
          <!-- Table starts here-->
          <div style ="overflow-x:auto;">
             <table style="width:90%; margin:1em auto">
@@ -105,4 +102,5 @@
    </body>
    <!-- Image Enlarge -->
 <script type="text/javascript" src="enlargeImage.js"></script>
+<script type="text/javascript" src="slideShow.js"></script>
 </html>
